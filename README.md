@@ -3,4 +3,4 @@
 # Programming: Ruoyu Li(all parts excluding the comment webpage) + WIX(comment webpage design + data storage)
 # Detailed description is in the design proposal folder.
 # Start from: https://ruoyuli97.github.io/braddock-website/cover.html
-# Not recommended for cell phone!
+# Not recommended for cell phone screen!
