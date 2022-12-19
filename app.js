@@ -845,20 +845,20 @@ function changeMainBtnStyles(btn) {
 
 function changeMainBtns() {
     clearBtn();
-    ly.style.backgroundImage = 'url(ly.png)';
-    sg.style.backgroundImage = 'url(sg.png)';
-    ch.style.backgroundImage = 'url(ch.png)';
-    aa.style.backgroundImage = 'url(aa.png)';
-    sa.style.backgroundImage = 'url(sa.png)';
-    j1.style.backgroundImage = 'url(j.png)';
-    j2.style.backgroundImage = 'url(j.png)';
-    j3.style.backgroundImage = 'url(j.png)';
-    j4.style.backgroundImage = 'url(j.png)';
-    j5.style.backgroundImage = 'url(j.png)';
-    ry1.style.backgroundImage = 'url(ry.png)';
-    ry2.style.backgroundImage = 'url(ry.png)';
-    ry3.style.backgroundImage = 'url(ry.png)';
-    ky.style.backgroundImage = 'url(ky.png)';
+    ly.style.backgroundImage = 'url(images/ly.png)';
+    sg.style.backgroundImage = 'url(images/sg.png)';
+    ch.style.backgroundImage = 'url(images/cl.png)';
+    aa.style.backgroundImage = 'url(images/aa.png)';
+    sa.style.backgroundImage = 'url(images/sa.png)';
+    j1.style.backgroundImage = 'url(images/jp.png)';
+    j2.style.backgroundImage = 'url(images/jp.png)';
+    j3.style.backgroundImage = 'url(images/jp.png)';
+    j4.style.backgroundImage = 'url(images/jp.png)';
+    j5.style.backgroundImage = 'url(images/jp.png)';
+    ry1.style.backgroundImage = 'url(images/ry.png)';
+    ry2.style.backgroundImage = 'url(images/ry.png)';
+    ry3.style.backgroundImage = 'url(images/ry.png)';
+    ky.style.backgroundImage = 'url(images/ky.png)';
     for (let k in dict1) {
         let btn = dict1[k][0];
         changeMainBtnStyles(btn);
