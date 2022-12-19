@@ -781,13 +781,14 @@ function resizeImg(x, y) {
         dictCoor[btn][2] = newCoor[1];
         btnVal[0].style.left = newCoor[0] + 'px';
         btnVal[0].style.top = newCoor[1] + 'px';
+        btnVal[0].style.transition = 'all 1.5s';
     }
     img.style.left = 0 - 5 * x + 'px';
     img.style.top = 0 - 5 * y + 'px';
     img.style.width = '600%';
     img.style.height = '600%';
     img.style.position = 'absolute';
-    img.style.transition = 'all 1.2s ease 0.2s';
+    img.style.transition = 'all 1.5s';
 }
 
 function reloadImg(x0, y0, x, y) {
@@ -800,11 +801,12 @@ function reloadImg(x0, y0, x, y) {
         dictCoor[btn][2] = newCoor[1];
         btnVal[0].style.left = newCoor[0] + 'px';
         btnVal[0].style.top = newCoor[1] + 'px';
+        btnVal[0].style.transition = 'all 1.5s';
     }
     img.style.left = 0 - 5 * x0 + 'px';
     img.style.top = 0 - 5 * y0 + 'px';
     img.style.position = 'absolute';
-    img.style.transition = 'all 1.5s ease 0.5s';
+    img.style.transition = 'all 1.5s';
 }
 
 function clearCardPopup() {
